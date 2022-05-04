@@ -1,0 +1,29 @@
+.wrapper {
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.wrapper .btn-wrapper {
+	margin-top: 25px;
+	width: 600px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.wrapper .btn-wrapper .btn-success {
+	padding: 7px;
+	font-size: 18px;
+	background-color: green;
+	color : white
+}
+
+.wrapper .btn-wrapper .btn-danger {
+	padding: 7px;
+	font-size: 18px;
+	background-color: red;
+	color: white
+}
